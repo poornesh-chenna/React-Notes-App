@@ -47,7 +47,7 @@ Follow these steps to set up and run the React Notes App:
    ```
 2. **Navigate to the Project Directory:**
    ```
-   cd react-notes
+   cd react-notes-app
    ```
 3. **Install Dependencies:**
    ```
