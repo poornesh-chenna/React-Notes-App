@@ -25,6 +25,14 @@ function CreateNotes({ setnotes }) {
 
   function addNote(event) {
     event.preventDefault()
+    if (!note.title) {
+      alert('Please enter a title')
+      return
+    }
+    if (!note.content) {
+      alert('Please enter the content')
+      return
+    }
     dispatch(addNotes({ ...note, id: nanoid() }))
     setnote({
       title: '',

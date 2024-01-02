@@ -22,6 +22,7 @@ export default function Note({ selectedNote, setisOpen }) {
 
   const updateNote = () => {
     dispatch(editNotes(note))
+    alert('Successfully updated the note')
   }
 
   const handleToggleStrike = () => {
