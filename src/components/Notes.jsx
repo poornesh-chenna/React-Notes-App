@@ -6,7 +6,6 @@ import { MdDelete } from 'react-icons/md'
 
 function Notes() {
   const notes = useSelector((state) => state.notes)
-  console.log(notes)
   const [isOpen, setisOpen] = useState(false)
   const [selctedNote, setselctedNote] = useState()
 
